@@ -117,4 +117,4 @@
 
 ## Summary
 - UCI ML Repo
-    - [archive.ics.uci.edu/ml](archive.ics.uci.edu/ml)
+    - [archive.ics.uci.edu/ml](http://archive.ics.uci.edu/)
