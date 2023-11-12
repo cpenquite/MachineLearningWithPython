@@ -1,12 +1,12 @@
 # Understanding Machine Learning with Python3
 
-course url: [https://app.pluralsight.com/library/courses/python-understanding-machine-learning](url)
+[link to course](https://app.pluralsight.com/library/courses/python-understanding-machine-learning)
 
-what is machine learning?
+## what is machine learning?
 - building a model from example inputs to make data-driven predictions vs following strictly static program instructions
 - machine learning logic - gather data we need and modify format to be passed into algorithm
 
-types of machine learning
+## types of machine learning
 - supervised and unsupervised
 - supervised: data has feature values and the value we want to algorithm to predict
     - value prediction
@@ -17,13 +17,13 @@ types of machine learning
     - data does not contain cluster membership
     - model provides access to data by cluster
 
-python libraries for machine learning
+## python libraries for machine learning
 - numpy - scientific computing
 - pandas - data frames
 - matplotlib - 2D plotting
 - scikit-learn - algorithms, preprocessing, performance evaluation, …
 
-machine learning workflow
+## machine learning workflow
 - an orchestrated and repeatable pattern which systematically transforms and processes information to create prediction solutions
 - steps:
     - asking the right question
@@ -33,7 +33,7 @@ machine learning workflow
     - testing the model’s accuracy
         - may need to go back and modify steps 2-4
 
-asking the right question
+## asking the right question
 - need statement to direct and validate work
 - define end goal, starting point, and how to achieve goal
 - solution statement goals
@@ -57,7 +57,7 @@ asking the right question
         - transform data as required
     - “Use the Machine Learning Workflow to process and transform Pima Indian data to create a prediction model.  This model must predict which people are likely to develop diabetes with 70% or greater accuracy”
 
-preparing your data
+## preparing your data
 - Tidy data: Tidy datasets are easy to manipulate, model and visualize, and have a specific structure:
     - each variable is a column
     - each observation is a row
@@ -74,7 +74,7 @@ preparing your data
         - 1 class column
             - diabetes - true or false
 
-selecting your algorithm
+## selecting your algorithm
 - scikit-learn has algorithms
 - prediction model = supervised machine learning
 - result type = regression (continuous values) or classification (discrete values)
@@ -91,13 +91,13 @@ selecting your algorithm
     - node contains decision
     - requires enough data to determine nodes and splits
 
-training the model
+## training the model
 - letting specific data teach a ML algorithm to create a specific prediction model
 - prepared data -> 70% training and 30% testing
 - python training tip
     - scikit-learn has training functions
 
-testing model’s accuracy
+## testing model’s accuracy
 - improve performance
     - adjust current algorithm
     - get more data or improve data
@@ -115,6 +115,6 @@ testing model’s accuracy
     - split training data into n size and use one fold as the validation data and repeat for each fold
 - scikit-learn includes “CV” algorithms
 
-Summary
+## Summary
 - UCI ML Repo
-    - [archive.ics.uci.edu/ml](url)
+    - [archive.ics.uci.edu/ml](archive.ics.uci.edu/ml)
