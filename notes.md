@@ -1,5 +1,7 @@
 # Understanding Machine Learning with Python3
 
+course url: [https://app.pluralsight.com/library/courses/python-understanding-machine-learning](url)
+
 what is machine learning?
 - building a model from example inputs to make data-driven predictions vs following strictly static program instructions
 - machine learning logic - gather data we need and modify format to be passed into algorithm
@@ -68,7 +70,7 @@ preparing your data
     - 768 patient observation rows
     - 10 columns
         - 9 feature columns
-            - # pregnancies, blood pressure, glucose …
+            - number of pregnancies, blood pressure, glucose …
         - 1 class column
             - diabetes - true or false
 
@@ -115,4 +117,4 @@ testing model’s accuracy
 
 Summary
 - UCI ML Repo
-    - archive.ics.uci.edu/ml
+    - [archive.ics.uci.edu/ml](url)
